@@ -467,7 +467,7 @@ With PostGraphQL, you can access the power of PostgreSQL through a well designed
 ### <font color='00A2E8'>**>>>[InversifyJS](https://github.com/inversify/InversifyJS) - An isomorphic dependency injection library.**</font>
 
 InversifyJS is an inversion of control library that works in both front-end and
-back-end applications. InversifyJS is framework agnostic and can be integraed with
+back-end applications. InversifyJS is framework agnostic and can be integrated with
 many existing frameworks like React applications powered by MobX or Node.js
 applications powered by express.
 
