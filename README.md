@@ -479,15 +479,10 @@ import * as express from "express";
 import { Response, RequestParams, Controller, Get, Post, Put } from "inversify-express-utils";
 import { injectable, inject } from "inversify";
 import { interfaces } from "./interfaces";
-import { authorize } from "./middleware";
-import { FEATURE } from "./constants";
-
+import { Type } from "./types";
 
 @injectable()
-@Controller(
-    "/api/user",
-    authorize({ feature: FEATURE.APP_ACCESS_APP_PREFERENCES })
-)
+@Controller("/api/user")
 class UserController {
 
     @inject(Type.UserRepository) private readonly _userRepository: interfaces.UserRepository,
@@ -515,7 +510,7 @@ class UserController {
     ) {
         try {
             this._logger.info(`HTTP ${req.method} ${req.url}`);
-            return await this._userRepository.readAll({ where: { email } });
+            return await this._userRepository.readAll({ where: { email: email } });
         } catch (e) {
             this._logger.error(`HTTP ERROR ${req.method} ${req.url}`, e);
             res.status(500).json([]);
