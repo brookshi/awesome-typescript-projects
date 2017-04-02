@@ -495,6 +495,7 @@ class UserController {
 
     @Get("/")
     public async get(
+      @Request() req: express.Request,
       @Response() res: express.Response
     ) {
         try {
@@ -509,6 +510,7 @@ class UserController {
     @Get("/:email")
     public async getByEmail(
       @RequestParams("email") email: string,
+      @Request() req: express.Request,
       @Response() res: express.Response
     ) {
         try {
