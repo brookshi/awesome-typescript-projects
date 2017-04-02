@@ -409,7 +409,7 @@ William Stryker: Oh, they serve their purpose... as long as they can be controll
 
 [https://github.com/typeorm/typeorm](https://github.com/typeorm/typeorm)
 
-TypeORM is an Object Relational Mapper (ORM) for node.js written in TypeScript that can be used with TypeScript or JavaScript (ES5, ES6, ES7). Its goal to always support latest JavaScript features and provide features that help you to develop any kind of applications that use database - from small applications with a few tables to large scale enterprise applications. 
+TypeORM is an Object Relational Mapper (ORM) for node.js written in TypeScript that can be used with TypeScript or JavaScript (ES5, ES6, ES7). Its goal to always support latest JavaScript features and provide features that help you to develop any kind of applications that use database - from small applications with a few tables to large scale enterprise applications.
 
 ```ts
 import {Entity, Column, PrimaryGeneratedColumn, OneToOne, JoinColumn} from "typeorm";
@@ -464,4 +464,64 @@ Apollo Client can be used in any JavaScript frontend where you want to use data 
 With PostGraphQL, you can access the power of PostgreSQL through a well designed GraphQL server. PostGraphQL uses PostgreSQL reflection APIs to automatically detect primary keys, relationships, types, comments, and more providing a GraphQL server that is highly intelligent about your data.
 
 
-### <font color='00A2E8'>**>>>[Inversif
+### <font color='00A2E8'>**>>>[InversifyJS](https://github.com/inversify/InversifyJS) - An isomorphic dependency injection library.**</font>
+
+InversifyJS is an inversion of control library that works in both front-end and
+back-end applications. InversifyJS is framework agnostic and can be integraed with
+many existing frameworks like React applications powered by MobX or Node.js
+applications powered by express.
+
+InversifyJS is particularly well integrated with Express thanks to the
+[inversify-express-utils](https://github.com/inversify/inversify-express-utils) project:
+
+```ts
+import * as express from "express";
+import { Response, RequestParams, Controller, Get, Post, Put } from "inversify-express-utils";
+import { injectable, inject } from "inversify";
+import { interfaces } from "./interfaces";
+import { authorize } from "./middleware";
+import { FEATURE } from "./constants";
+
+
+@injectable()
+@Controller(
+    "/api/user",
+    authorize({ feature: FEATURE.APP_ACCESS_APP_PREFERENCES })
+)
+class UserController {
+
+    @inject(Type.UserRepository) private readonly _userRepository: interfaces.UserRepository,
+    @inject(Type.Logger) private readonly _logger: interfaces.Logger
+
+    @Get("/")
+    public async get(
+      @Response() res: express.Response
+    ) {
+        try {
+            this._logger.info(`HTTP ${req.method} ${req.url}`);
+            return await this._userRepository.readAll();
+        } catch (e) {
+            this._logger.error(`HTTP ERROR ${req.method} ${req.url}`, e);
+            res.status(500).json([]);
+        }
+    }
+
+    @Get("/:email")
+    public async getByEmail(
+      @RequestParams("email") email: string,
+      @Response() res: express.Response
+    ) {
+        try {
+            this._logger.info(`HTTP ${req.method} ${req.url}`);
+            return await this._userRepository.readAll({ where: { email } });
+        } catch (e) {
+            this._logger.error(`HTTP ERROR ${req.method} ${req.url}`, e);
+            res.status(500).json([]);
+        }
+    }
+
+}
+```
+
+The [Inversify GitHub organization](https://github.com/inversify)
+also provides the community with some helpers and examples to facilitate the integration of InversifyJS with other popular projects.
