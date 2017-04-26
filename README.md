@@ -538,3 +538,8 @@ Do you know react and want to try out typescript? Or do you know typescript and 
 [https://github.com/microsoft/reactxp](https://github.com/microsoft/reactxp)
 
 With React and React Native, your web app can share most its logic with your iOS and Android apps, but the view layer needs to be implemented separately for each platform. We have taken this a step further and developed a thin cross-platform layer we call ReactXP. If you write your app to this abstraction, you can share your view definitions, styles and animations across multiple target platforms. Of course, you can still provide platform-specific UI variants, but this can be done selectively where desired.
+
+
+### <font color='00A2E8'>**>>>[json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) - Compile JSONSchema to TypeScript typings.**</font>
+
+[https://github.com/bcherny/json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript)
