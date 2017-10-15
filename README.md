@@ -108,15 +108,13 @@ CATS is an IDE for TypeScript and Web developers. CATS is open source software r
 Angular is a development platform for building mobile and desktop web applications using Typescript/JavaScript (JS) and other languages.
 
 
-### <font color='00A2E8'>**>>>[ng2-admin](https://github.com/akveo/ng2-admin) - Angular 2 admin dashboard framework**</font>
-
-[https://github.com/akveo/ng2-admin](https://github.com/akveo/ng2-admin)
+### <font color='00A2E8'>**>>>[ngx-admin](https://github.com/akveo/ngx-admin) - Angular 2 admin dashboard framework**</font>
 
 Admin panel framework based on Angular 2, Bootstrap 4 and Webpack.
 
-[Demo Page](http://akveo.com/ng2-admin/)
+[Demo Page](http://akveo.com/ngx-admin/)
 
-![case](https://camo.githubusercontent.com/2dc499a9333ca5534cba0593956e68d43c7f3f92/687474703a2f2f692e696d6775722e636f6d2f514b39417a486a2e6a7067)
+![case](https://camo.githubusercontent.com/33036bf7ec00d508575b5207a5799052cda93825/68747470733a2f2f692e696d6775722e636f6d2f586f4a7466764b2e676966)
 
 
 ### <font color='00A2E8'>**>>>[angular-seed](https://github.com/mgechev/angular-seed) - Extensible, reliable and modular starter project for Angular 2 (and beyond) with statically typed build and AoT compilation**</font>
