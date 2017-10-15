@@ -506,3 +506,10 @@ Upterm shows the autocompletion box as you type and tries to be smart about what
 All command-line programs (including emacs, ssh and vim) should work as expected. 
 
 ![](https://github.com/railsware/upterm/raw/master/README/npm_autocompletion.png)
+
+
+### [desktop](https://github.com/desktop/desktop) - Simple collaboration from your desktop.
+
+GitHub Desktop is an open source Electron-based GitHub app. It is written in TypeScript and uses React.
+
+![](https://cloud.githubusercontent.com/assets/359239/26094502/a1f56d02-3a5d-11e7-8799-23c7ba5e5106.png)
