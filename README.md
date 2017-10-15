@@ -448,11 +448,9 @@ export class PhotoMetadata {
 Proposal to add Decorators to ES7, along with a prototype for an ES7 Reflection API for Decorator Metadata.
 
 
-### <font color='00A2E8'>**>>>[apollo-client](https://github.com/apollographql/apollo-client) - A fully-featured caching GraphQL client for any server or UI framework**</font>
+### <font color='00A2E8'>**>>>[apollo-client](https://github.com/apollographql/apollo-client) - A fully-featured, production ready caching GraphQL client for every server or UI framework**</font>
 
-[https://github.com/apollographql/apollo-client](https://github.com/apollographql/apollo-client)
-
-Apollo Client can be used in any JavaScript frontend where you want to use data from a GraphQL server.
+Apollo Client is a fully-featured caching GraphQL client with integrations for React, Angular, and more. It allows you to easily build UI components that fetch data via GraphQL. To get the most value out of apollo-client, you should use it with one of its view layer integrations.
 
 
 ### <font color='00A2E8'>**>>>[postgraphql](https://github.com/calebmer/postgraphql) - A GraphQL API created by reflection over a PostgreSQL schema.**</font>
