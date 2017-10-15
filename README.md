@@ -543,3 +543,24 @@ With React and React Native, your web app can share most its logic with your iOS
 ### <font color='00A2E8'>**>>>[json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) - Compile JSONSchema to TypeScript typings.**</font>
 
 [https://github.com/bcherny/json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript)
+
+--------
+
+## Application
+
+### **>>>[Hitchhiker](https://github.com/brookshi/Hitchhiker) - Hitchhiker Api is a Restful Api integrated testing tool that support Schedule, Response comparsion, Stress Test etc. You can deploy it in your local server. It make easier to manage Api with your team.**
+
+* Api collaboration development with team
+* Api history
+* Multiple environments and Runtime variables support, easy to handle api dependence
+* Request parameterization, include ManytoMany and OnetoOne, now you can use a request to handle multple situation like various query string, body
+* Schedule and run batch
+* Make a comparison for Api response between two different environments (eg: stage vs product)
+* Support Handling response before comparing
+* Easy to deploy (support docker, windows, linux), keep data in your control, never lose data
+* All changed will be auto saved in local cache even if refresh page
+* Support importing Postman v1 collections
+* Distributed stress test
+* Api Document (in future)
+
+![](https://raw.githubusercontent.com/brookshi/images/master/Hitchhiker/stresstest.gif)
