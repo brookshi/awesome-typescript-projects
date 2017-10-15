@@ -564,3 +564,14 @@ With React and React Native, your web app can share most its logic with your iOS
 * Api Document (in future)
 
 ![](https://raw.githubusercontent.com/brookshi/images/master/Hitchhiker/stresstest.gif)
+
+
+### **>>>[upterm](https://github.com/railsware/upterm) - Upterm (formerly Black Screen) is an IDE in the world of terminals. Strictly speaking, it's both a terminal emulator and an interactive shell based on Electron.**
+
+1. Autocompletion
+Upterm shows the autocompletion box as you type and tries to be smart about what to suggest. Often you can find useful additional information on the right side of the autocompletion, e.g. expanded alias value, command descriptions, value of the previous directory (cd -), etc.
+
+2. Compatibility
+All command-line programs (including emacs, ssh and vim) should work as expected. 
+
+![](https://github.com/railsware/upterm/raw/master/README/npm_autocompletion.png)
