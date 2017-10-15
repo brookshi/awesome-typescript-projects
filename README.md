@@ -540,6 +540,13 @@ With React and React Native, your web app can share most its logic with your iOS
 
 [https://github.com/bcherny/json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript)
 
+
+### **[deeplearnjs](https://github.com/PAIR-code/deeplearnjs) - Hardware-accelerated deep learning and linear algebra (NumPy) library for the web.**
+
+deeplearn.js is an open source hardware-accelerated JavaScript library for machine intelligence. deeplearn.js brings performant machine learning building blocks to the web, allowing you to train neural networks in a browser or run pre-trained models in inference mode.
+
+We provide two APIs, an immediate execution model (think NumPy) and a deferred execution model mirroring the TensorFlow API. deeplearn.js was originally developed by the Google Brain PAIR team to build powerful interactive machine learning tools for the browser, but it can be used for everything from education, to model understanding, to art projects.
+
 --------
 
 ## Application
