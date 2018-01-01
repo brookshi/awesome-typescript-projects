@@ -82,6 +82,25 @@ CATS is an IDE for TypeScript and Web developers. CATS is open source software r
 
 ![](https://camo.githubusercontent.com/cdadf09336bea233a036511c6649e2c4ecbc7fbd/68747470733a2f2f7261772e6769746875622e636f6d2f6a6261726f6e2f636174732f6d61737465722f6172746966616374732f636174735f73637265656e73686f742e706e67)
 
+
+### [oni](https://github.com/onivim/oni) - Modern Modal Editing - powered by Neovim
+
+The goal of this project is to provide both the full-fledged Vim experience, with no compromises, while pushing forward to enable new scenarios.
+
+Modern UX - The Vim experience should not be compromised with poor user experiences that stem from terminal limitations.
+Rich plugin development - using JavaScript, instead of VimL, allowing deep-language integration.
+Cross-platform support - across Windows, OS X, and Linux.
+Batteries included - rich features are available out of the box - minimal setup needed to be productive. TypeScript development is the canonical example, but the hope is that other language providers will be included. Later, an included package manager will make it simple to find and install plugins.
+Performance - no compromises, Vim is fast, and Oni should be fast too.
+Ease Learning Curve - without sacrificing the Vim experience
+Vim is an incredible tool for manipulating text at the speed of thought. With a composable, modal command language, it is no wonder that Vim usage is still prevalent today even in the realm of modern editors.
+
+However, going from thought to code has some different challenges than going from thought to text. IDEs today provide several benefits that help to reduce cognitive load when writing code, and that benefit is tremendously important - not only in terms of pure coding efficiency and productivity, but also in making the process of writing code enjoyable and fun.
+
+The goal of this project is to give an editor that gives the best of both worlds - the power, speed, and flexibility of using Vim for manipulating text, as well as the rich tooling that comes with an IDE.
+
+![](https://camo.githubusercontent.com/7fbedfb69bc03b2c98178a8ca37ec64f03fe890b/68747470733a2f2f73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f6f6e692d6d656469612f73637265656e73686f742d64617277696e2e706e67)
+
 -----
 
 
