@@ -513,3 +513,21 @@ All command-line programs (including emacs, ssh and vim) should work as expected
 GitHub Desktop is an open source Electron-based GitHub app. It is written in TypeScript and uses React.
 
 ![](https://cloud.githubusercontent.com/assets/359239/26094502/a1f56d02-3a5d-11e7-8799-23c7ba5e5106.png)
+
+
+### [terminus](https://github.com/Eugeny/terminus) - A terminal for a more modern age.
+
+Terminus is a web technology based terminal heavily inspired by Hyper. It is, however, designed for people who need to get things done.
+
+Runs on Windows, macOS and Linux
+Theming and color schemes
+Configurable hotkey schemes
+GNU Screen style hotkeys available by default
+Full Unicode support including double-width characters
+Doesn't choke on fast-flowing outputs
+Tab persistence on macOS and Linux
+Proper shell-like experience on Windows including tab completion (thanks, Clink!)
+CMD, PowerShell, Cygwin, Git-Bash and Bash on Windows support
+Default Linux style hotkeys for copy (Ctrl+Shift+C) and paste (Ctrl+Shift+V)
+
+![](https://github.com/Eugeny/terminus/raw/master/docs/linux.png)
