@@ -499,6 +499,15 @@ Intern is minimally prescriptive and enforces only a basic set of best practices
 
 TypeDI is a dependency injection tool for TypeScript. Using TypeDI you can build well-structured and easily tested applications.
 
+
+### [react-apollo](https://github.com/apollographql/react-apollo) - React integration for Apollo Client.
+
+TypeDI is a dependency injection tool for TypeScript. Using TypeDI you can build well-structured and easily tested applications.
+
+React Apollo allows you to fetch data from your GraphQL server and use it in building complex and reactive UIs using the React framework. React Apollo may be used in any context that React may be used. In the browser, in React Native, or in Node.js when you want to do server-side rendering.
+
+React Apollo unlike many other tools in the React ecosystem requires no complex build setup to get up and running. As long as you have a GraphQL server you can get started building out your application with React immediately. React Apollo works out of the box with both create-react-app and React Native with a single install and with no extra hassle configuring Babel or other JavaScript tools.
+
 --------
 
 ## Application
