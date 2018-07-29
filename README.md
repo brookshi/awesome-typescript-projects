@@ -564,3 +564,8 @@ CMD, PowerShell, Cygwin, Git-Bash and Bash on Windows support
 Default Linux style hotkeys for copy (Ctrl+Shift+C) and paste (Ctrl+Shift+V)
 
 ![](https://github.com/Eugeny/terminus/raw/master/docs/linux.png)
+
+### [windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) - Install C++ Build Tools for Windows using npm.
+
+![](https://user-images.githubusercontent.com/1426799/36077410-66a1d122-0f1f-11e8-9730-3ca50af1e4e6.gif)
+
