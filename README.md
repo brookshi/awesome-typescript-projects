@@ -34,6 +34,8 @@ TypeScript is a language for application-scale JavaScript. TypeScript adds optio
 
 ### [todomvc-redux-react-typescript](https://github.com/jaysoo/todomvc-redux-react-typescript) - TodoMVC example using Redux, React, and Typescript
 
+### [the-concise-typeScript-book](https://github.com/gibbok/typescript-book) - A Concise Guide to Effective Development in TypeScript. Free and Open Source.
+
 -----
 
 
