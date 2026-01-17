@@ -508,6 +508,11 @@ React Apollo allows you to fetch data from your GraphQL server and use it in bui
 
 React Apollo unlike many other tools in the React ecosystem requires no complex build setup to get up and running. As long as you have a GraphQL server you can get started building out your application with React immediately. React Apollo works out of the box with both create-react-app and React Native with a single install and with no extra hassle configuring Babel or other JavaScript tools.
 
+
+### [@hashgraphonline/standards-sdk](https://github.com/hashgraph-online/standards-sdk) - TypeScript SDK for building and interacting with decentralized AI agents on the Hedera network
+
+Hashgraph Online Standards SDK provides a complete TypeScript/JavaScript toolkit for discovering, registering, and interacting with decentralized AI agents via the Registry Broker on Hedera. Features include agent search, chat conversations, HCS message handling, and full type safety with comprehensive TypeScript definitions.
+
 --------
 
 ## Application
