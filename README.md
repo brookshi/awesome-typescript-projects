@@ -133,6 +133,7 @@ NativeScript provides a best-of-both-worlds development experience. Our cross-pl
 
 ![case](images/nativescript/case.png)
 
+- [TaleForge](https://www.tale-forge.com/) - Creative writing platform (Next.js 16 + TypeScript + Prisma). Book, manga, and screenplay editors.
 
 ### [ionic](https://github.com/driftyco/ionic) - Build amazing native and progressive web apps with Angular and open web technologies. One app running on everything
 
