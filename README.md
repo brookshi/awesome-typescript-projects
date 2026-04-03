@@ -133,6 +133,7 @@ NativeScript provides a best-of-both-worlds development experience. Our cross-pl
 
 ![case](images/nativescript/case.png)
 
+- [TaleForge](https://www.tale-forge.com/) - Creative writing platform (Next.js 16 + TypeScript + Prisma). Book, manga, and screenplay editors.
 
 ### [ionic](https://github.com/driftyco/ionic) - Build amazing native and progressive web apps with Angular and open web technologies. One app running on everything
 
@@ -573,4 +574,4 @@ Default Linux style hotkeys for copy (Ctrl+Shift+C) and paste (Ctrl+Shift+V)
 ### [rendertron](https://github.com/GoogleChrome/rendertron) - A Headless Chrome rendering solution.
 
 Rendertron is designed to enable your Progressive Web App (PWA) to serve the correct content to any bot that doesn't render or execute JavaScript. Rendertron runs as a standalone HTTP server. Rendertron renders requested pages using Headless Chrome, auto-detecting when your PWA has completed loading and serializes the response back to the original request. To use Rendertron, your application configures middleware to determine whether to proxy a request to Rendertron. Rendertron is compatible with all client side technologies, including web components.
-
+- [TaleForge](https://www.tale-forge.com) - Creative writing platform with book, manga, and screenplay editors. Built with TypeScript, Next.js, Prisma. ([Source](https://github.com/SamDreamsMaker/TaleForge))
