@@ -570,6 +570,18 @@ Default Linux style hotkeys for copy (Ctrl+Shift+C) and paste (Ctrl+Shift+V)
 ![](https://user-images.githubusercontent.com/1426799/36077410-66a1d122-0f1f-11e8-9730-3ca50af1e4e6.gif)
 
 
+### [Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) - Universal CLI for AI agents — 756 commands across 167 sites (web, desktop, Electron apps). Self-repairing 20-line YAML adapters, auto-JSON output, ~80 tokens per call.
+
+Uni-CLI is the entry point for AI agents to touch, sense, understand, modify, and control any internet application (via Chrome) and local software (via subprocess). YAML adapters are agent-readable and agent-editable. When a command fails, agents read the structured error JSON, edit the YAML adapter, and retry — fixes persist automatically.
+
+* 167 sites, 756 commands — web APIs, desktop apps, Electron, browser automation
+* Self-repairing YAML adapters (~20 lines each)
+* Auto-JSON output in piped/non-TTY mode
+* ~80 tokens per CLI call
+* Raw CDP browser control (no Puppeteer/Playwright dependency)
+* Apache-2.0 license
+
+
 ### [rendertron](https://github.com/GoogleChrome/rendertron) - A Headless Chrome rendering solution.
 
 Rendertron is designed to enable your Progressive Web App (PWA) to serve the correct content to any bot that doesn't render or execute JavaScript. Rendertron runs as a standalone HTTP server. Rendertron renders requested pages using Headless Chrome, auto-detecting when your PWA has completed loading and serializes the response back to the original request. To use Rendertron, your application configures middleware to determine whether to proxy a request to Rendertron. Rendertron is compatible with all client side technologies, including web components.
