@@ -18,6 +18,8 @@ TypeScript is a language for application-scale JavaScript. TypeScript adds optio
 
 ## Learning Resources
 
+- [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense.
+- [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update.
 ### [TypeScript-Handbook](https://github.com/Microsoft/TypeScript-Handbook) - The TypeScript Handbook is a comprehensive guide to the TypeScript language
 
 ### [typescript-book](https://github.com/basarat/typescript-book) - The definitive guide to TypeScript and possibly the best TypeScript book
