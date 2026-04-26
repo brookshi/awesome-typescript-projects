@@ -352,6 +352,28 @@ William Stryker: Oh, they serve their purpose... as long as they can be controll
 ![](images/stryker/case.png)
 
 
+### [tipo-cambio-peru](https://github.com/Edsoncame/tipo-cambio-peru) - TypeScript/ESM client for Peru's official exchange rate APIs (BCRP central bank, SBS regulator, SUNAT tax authority).
+
+Zero dependencies, MIT licensed. Wraps the three Peruvian exchange rate authorities into a single API and handles their quirks (BCRP appends HTML to JSON responses, SBS rotates field names, etc.). Maintained by [Securex](https://securex.pe), an SBS-regulated digital currency exchange.
+
+```ts
+import { getTCToday, convert } from 'tipo-cambio-peru';
+
+const today = await getTCToday();
+const soles = convert(1000, 'USD', 'PEN', today);
+```
+
+
+### [dni-validator-peru](https://github.com/Edsoncame/dni-validator-peru) - Offline validation of Peruvian DNI and RUC documents using the official SUNAT módulo-11 algorithm.
+
+TypeScript ESM, zero dependencies, MIT. Useful for any KYC flow targeting Peru. Ships type-safe validators and result objects with detailed error info.
+
+
+### [feriados-peru](https://github.com/Edsoncame/feriados-peru) - National holidays calendar for Peru with business-day utilities and automatic Easter calculation.
+
+TypeScript ESM, zero dependencies, MIT. Computes movable holidays (Holy Thursday, Good Friday) via the Butcher algorithm, exposes `esDiaHabil`, `siguienteDiaHabil`, and `diasHabilesEntre` for accounting and conciliation flows.
+
+
 ### [typeorm](https://github.com/typeorm/typeorm) - Data-Mapper ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, WebSQL databases. Works in Node.js and Browser.
 
 TypeORM is an Object Relational Mapper (ORM) for node.js written in TypeScript that can be used with TypeScript or JavaScript (ES5, ES6, ES7). Its goal to always support latest JavaScript features and provide features that help you to develop any kind of applications that use database - from small applications with a few tables to large scale enterprise applications.
