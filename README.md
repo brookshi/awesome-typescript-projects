@@ -512,6 +512,8 @@ React Apollo unlike many other tools in the React ecosystem requires no complex 
 
 ## Application
 
+### [Equip](https://github.com/ArVaViT/equip) - Free, open-source learning management system for Bible schools built with TypeScript, React 18, Vite, Tailwind CSS, and shadcn/ui.
+
 ### [Hitchhiker](https://github.com/brookshi/Hitchhiker) - Hitchhiker Api is a Restful Api integrated testing tool that support Schedule, Response comparsion, Stress Test etc. You can deploy it in your local server. It make easier to manage Api with your team.
 
 * Api collaboration development with team
