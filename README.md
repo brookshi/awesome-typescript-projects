@@ -574,3 +574,12 @@ Default Linux style hotkeys for copy (Ctrl+Shift+C) and paste (Ctrl+Shift+V)
 
 Rendertron is designed to enable your Progressive Web App (PWA) to serve the correct content to any bot that doesn't render or execute JavaScript. Rendertron runs as a standalone HTTP server. Rendertron renders requested pages using Headless Chrome, auto-detecting when your PWA has completed loading and serializes the response back to the original request. To use Rendertron, your application configures middleware to determine whether to proxy a request to Rendertron. Rendertron is compatible with all client side technologies, including web components.
 
+
+
+### [UnfoldCMS](https://github.com/hpakdaman/unfoldcms) - A self-hosted CMS with a fully-typed TypeScript + React 19 admin
+
+UnfoldCMS is a self-hosted content management system built with TypeScript and React 19. The admin panel is a fully-typed Inertia 2 SPA with 205 pages, 51 shadcn/ui components, and Tailwind v4. It ships both a Core (free) and Pro tier.
+
+- TypeScript + React 19 + shadcn/ui + Tailwind v4 + Inertia 2
+- 205 admin pages, all fully typed
+- [Website](https://unfoldcms.com) | [Demo](https://demo.unfoldcms.com)
