@@ -328,6 +328,10 @@ UI-Router applications are modeled as a hierarchical tree of states. UI-Router p
 ![](images/ui-router.png)
 
 
+### [speedy-router](https://github.com/anonrig/router) - The TanStack Router API rebuilt for the hot path.
+
+A from-scratch React 19.2 router with the TanStack Router public API, built for faster navigations and streaming SSR.
+
 ### [mobx](https://github.com/mobxjs/mobx) - Simple, scalable state management.
 
 MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP).
