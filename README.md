@@ -316,6 +316,10 @@ trNgGrid can be used for simple to mildly complex scenarios where you quickly ne
 
 ![](images/table.png)
 
+### [Markstream](https://github.com/Simon-He95/markstream-vue) - Streaming Markdown UI components for Vue, React, Solid, Svelte and Angular
+
+Markstream renders incomplete Markdown streams for AI chat interfaces and supports Mermaid, KaTeX and syntax highlighting.
+
 -----
 
 
